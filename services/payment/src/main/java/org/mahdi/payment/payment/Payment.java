@@ -19,7 +19,10 @@ import java.time.LocalDateTime;
 @Table(name = "payment")
 public class Payment {
 
+<<<<<<< HEAD
     @Id
+=======
+>>>>>>> fab77304475c73e6ab9327d90f384b997d38136b
     @GeneratedValue
     private Integer id;
     private BigDecimal amount;

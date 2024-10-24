@@ -13,7 +13,10 @@
         <module name="Customer" />
         <module name="discovery" />
         <module name="payment" />
+<<<<<<< HEAD
         <module name="gateway" />
+=======
+>>>>>>> fab77304475c73e6ab9327d90f384b997d38136b
         <module name="order" />
       </profile>
     </annotationProcessing>
@@ -23,7 +26,10 @@
       <module name="Customer" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="discovery" options="-parameters" />
+<<<<<<< HEAD
       <module name="gateway" options="-parameters" />
+=======
+>>>>>>> fab77304475c73e6ab9327d90f384b997d38136b
       <module name="notification" options="-parameters" />
       <module name="order" options="-parameters" />
       <module name="payment" options="-parameters" />

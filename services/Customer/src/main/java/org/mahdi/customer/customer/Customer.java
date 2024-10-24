@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package org.mahdi.customer.customer;
 
 
@@ -20,3 +21,27 @@ public class Customer {
     private String email;
     private Adress address;
 }
+=======
+package org.mahdi.customer.customer;
+
+
+import lombok.*;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+@Getter
+@Setter
+@Document
+
+public class Customer {
+    @Id
+    private String id;
+    private String firstName;
+    private String lastName;
+    private String email;
+    private Adress address;
+}
+>>>>>>> fab77304475c73e6ab9327d90f384b997d38136b

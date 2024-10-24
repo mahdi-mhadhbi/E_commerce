@@ -18,7 +18,11 @@ spring:
       value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
       properties:
         spring.json.trusted.packages: '*'
+<<<<<<< HEAD
         spring.json.type.mapping: orderConfirmation:org.mahdi.notification.kafka.order.OrderConfirmation,paymentConfirmation:org.mahdi.payment.notification.PaymentNotifRequest
+=======
+        spring.json.type.mapping: orderConfirmation:org.mahdi.order.kafka.OrderConfirmation,paymentConfirmation:org.mahdi.payment.notification.PaymentNotifRequest
+>>>>>>> fab77304475c73e6ab9327d90f384b997d38136b
   mail:
     host: localhost
     port: 1025

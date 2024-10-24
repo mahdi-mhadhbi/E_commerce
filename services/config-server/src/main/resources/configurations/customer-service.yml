@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 spring:
   data:
     mongodb:
@@ -9,3 +10,16 @@ spring:
       authentication-database: admin
 server:
   port : 8090
+=======
+spring:
+  data:
+    mongodb:
+      username: mahdi
+      password: mahdi
+      host: localhost
+      port: 27017
+      database: customer
+      authentication-database: admin
+server:
+  port : 8090
+>>>>>>> fab77304475c73e6ab9327d90f384b997d38136b

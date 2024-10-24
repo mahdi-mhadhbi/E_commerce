@@ -1,6 +1,10 @@
 spring:
   application:
+<<<<<<< HEAD
     name: order-service
+=======
+    name: order-services
+>>>>>>> fab77304475c73e6ab9327d90f384b997d38136b
   config:
     import: optional:configserver:http://localhost:8888
 
